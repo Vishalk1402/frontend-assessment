@@ -20,11 +20,6 @@ const Navbar = () => {
         <a href="#">About Us</a>
         <a href="#">FAQ</a>
         <a href="#">Contact Us</a>
-        <a href="#">Signup</a>
-
-       
-
-       
       </nav>
 
  

@@ -19,7 +19,6 @@
     opacity: 0.6;
 }
 
-
 .left {
     max-width: 520px;
     z-index: 2;
@@ -32,7 +31,6 @@
     font-family: "League Spartan", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-
 }
 
 .left h1 span {
@@ -40,7 +38,6 @@
 }
 
 .left p {
-
     font-family: "Saira", sans-serif;
     font-optical-sizing: auto;
     font-weight: 500;
@@ -92,18 +89,20 @@
 }
 
 .card1 {
-    display: flex;
-    gap: 10px;
     position: relative;
     top: 125px;
-    right: 30px;
-    width: 280px;
+    right: 50px;
+    width: 260px;
 }
 
-.text {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.text p {
+    text-align: start;
+}
+
+.strip {
+    position: absolute;
+    top: 130px;
+    right: 660px;
 }
 
 .stars {
@@ -116,7 +115,7 @@
     height: auto;
     width: 810px;
     right: 160px;
-    bottom: 101px;
+    bottom: 118px;
 }
 
 .sty1 {
@@ -124,7 +123,7 @@
 }
 
 @media (max-width: 1024px) {
-    .boy{
+    .boy {
         display: none;
     }
 
@@ -132,98 +131,102 @@
         display: none;
     }
 
+    .left p {
+        width: 360px;
+    }
+
     .right {
-        position: relative;
-        height: 80vh;
-        width: auto;
+        position: absolute;
+        right: 180px;
+        top: 0;
+        text-align: left;
+    }
+
+    .right h4 {
         font-size: larger;
     }
-}
 
-@media (max-width:786px) {
-      .hero{
-        display: flex;
-        flex-direction:column;
-        padding-top: 20px;
-        gap: 0;
-        max-height: 100vh;
+    .right p {
+        width: 400px;
+        font-size: larger;
+        text-align: left;
     }
-    .left{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        font-size: x-large;
-    }
-    .left h1{
-        font-size: 50px;
-    }
-    .left p{
-        width: 60vw;
-        font-size: large;
-    }
-    .right{
-        position: relative;
-        bottom: 100px;
-        font-size: large;
-    }
-    
 }
 
 @media (max-width: 768px) {
     .hero {
-        min-height: 100vh;  
+        min-height: 100vh;
         height: auto;
         flex-direction: column;
         justify-content: center;
         padding: 20px 6vw;
-        text-align: center;
-        gap: 20px;
+        text-align: left;
     }
 
     .left {
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        font-size: x-large;
     }
 
-    .left h1{
+    .left h1 {
         font-size: 40px;
     }
 
-    .right{
-        font-size: larger;
+    .left p {
+        width: 60vw;
+        font-size: large;
+        text-align: left;
     }
 
-   .buttons {
-    margin-top: 20px;
-    display: flex;
-    gap: 16px;
+    .buttons {
+        margin-top: 20px;
+        display: flex;
+        gap: 16px;
+        align-self: flex-start;
+    }
 
-}
+    .btn1 {
+        background: white;
+        color: #2563eb;
+        border: none;
+        padding: 12px 10px;
+        border-radius: 8px;
+        font-weight: 600;
+        cursor: pointer;
+    }
 
-.btn1 {
-    background: white;
-    color: #2563eb;
-    border: none;
-    padding: 12px 10px;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-}
-
-.btn2 {
-    background: transparent;
-    border: 1px solid white;
-    color: white;
-    padding: 12px 10px;
-    border-radius: 8px;
-    cursor: pointer;
-}
+    .btn2 {
+        background: transparent;
+        border: 1px solid white;
+        color: white;
+        padding: 12px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
 
     .card1 {
-        top: 100px;
+        margin-top: 20px;
+        top: auto;
         right: 0;
-        margin-top: 24px;
-        margin-inline: auto;
+    }
+
+    .right {
+        position: relative;
+        bottom: 120px;
+        right: 20px;
+    }
+
+    .right h4 {
+        font-size: 30px;
+    }
+
+    .right p {
+        width: 280px;
+        font-size: large;
+        text-align: left;
     }
 
     .description {

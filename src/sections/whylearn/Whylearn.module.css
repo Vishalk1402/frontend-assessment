@@ -1,0 +1,106 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(135deg, #084FC7, #7F56D9);
+    align-items: center;
+    position: relative;
+}
+
+.primary {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+}
+
+.style {
+    position: absolute;
+    left: -60px;
+    width: 160px;
+    rotate: 90deg;
+    top: 30px;
+}
+
+
+
+.p0 {
+    max-width: 480px;
+    text-align: center;
+}
+
+.highlight {
+    color: #4BE5CA;
+}
+
+.secondary {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.card {
+
+    display: flex;
+    height: 340px;
+    width: 240px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 10px;
+}
+
+.para {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.img {
+    height: 140px;
+    width: auto;
+}
+
+.p1 {
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.p2 {
+    font-weight: lighter;
+    font-size: 30px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.p3 {
+    width: 160px;
+    font-size: 10px;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #DCE2EE;
+}
+
+@media (max-width:768px) {
+    .primary h2 {
+        text-align: center;
+    }
+
+    .style{
+        display: none;
+    }
+}

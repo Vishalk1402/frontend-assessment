@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "./Hero.module.css";
-import leftellipse from "../../assets/leftEllipse.png";
-import boy from "../../assets/boy.png";
-import center from "../../assets/center.png";
-import style1 from "../../assets/style1.png"
+import leftellipse from "../../assets/hero/leftEllipse.png";
+import boy from "../../assets/hero/boy.png";
+import center from "../../assets/hero/center.png";
+import style1 from "../../assets/hero/style1.png"
 
 const Hero = () => {
     return (
@@ -36,8 +36,8 @@ const Hero = () => {
 
             <div className={styles.right}>
                 
+                    <img src={center} alt="strip"  className={styles.strip}/>
                    <div className={styles.card1}>
-                   <img src={center} alt="strip" />
                     <div className={styles.text}>
                         <h4>Dadasaheb Sondge</h4>
                     <p>

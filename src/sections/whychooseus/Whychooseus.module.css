@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6vh 0;
+    background: linear-gradient(135deg, #D9ECFF, #D9ECFF00);
+    gap: 3rem;
+}
+
+h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+span {
+    color: #2AAA94;
+}
+
+p {
+    text-align: center;
+    font-family: "Saira", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+@media (max-width:768px){
+   .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .container h2{
+    text-align: center;
+   }
+}
