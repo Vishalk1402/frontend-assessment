@@ -45,7 +45,7 @@ const WhyChooseus = () => {
         <div className={styles.container}>
             <div style={styles.desc}>
                 <h2>Why Choose <span className={styles.span}>IFAS</span> Online?</h2>
-                <p>12,000+ unique online course list designs</p>
+                <p className={styles.para}>12,000+ unique online course list designs</p>
             </div>
             <div className={styles.cards}>
                 {data.map(item => (

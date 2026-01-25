@@ -1,0 +1,106 @@
+.wrapper {
+  position: relative;
+  width: 70%;
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 50px 20px;
+  border-radius: 16px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+
+.content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  color: #ffffff;
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h3 {
+  font-size: 28px;
+  font-family: "Rowdies";
+  margin-bottom: 10px;
+}
+
+.content p {
+  font-size: 14px;
+  font-family: "Saira";
+  opacity: 0.9;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  width: 60%;
+}
+
+
+.form {
+  display: flex;
+  background: #ffffff;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.form input {
+  flex: 1;
+  padding: 14px 16px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.form button {
+  padding: 0 26px;
+  border: none;
+  background: #6c63ff;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.form button:hover {
+  background: #574fe3;
+}
+
+
+@media (max-width: 768px) {
+  .content h3 {
+    font-size: 24px;
+  }
+
+  .form {
+    flex-direction: column;
+  }
+
+  .form button {
+    width: 100%;
+    padding: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .content h3 {
+    font-size: 22px;
+  }
+
+  .content p {
+    font-size: 13px;
+  }
+}

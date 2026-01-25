@@ -1,0 +1,107 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(180deg, #DBEDFF00, #DBEDFF);
+  padding: 50px 20px;
+  min-height: 100vh; /* changed from height */
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* Decorative ellipse */
+.ellipse {
+  position: absolute;
+  left: 50px;
+  top: 120px;
+}
+
+.ellip {
+  width: 60px;
+}
+
+/* Top section */
+.top {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.top h3 {
+  font-size: 26px;
+  font-family: "Rowdies";
+  color: #2AAA94;
+}
+
+.top p {
+  color: #4E596B;
+  font-size: 16px;
+  font-family: "Saira";
+  padding-top: 12px;
+}
+
+/* Cards container */
+.bottom {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/* =========================
+   TABLET (<= 1024px)
+   ========================= */
+@media (max-width: 1024px) {
+  .top h3 {
+    font-size: 24px;
+  }
+
+  .top p {
+    font-size: 15px;
+  }
+
+  .ellipse {
+    left: 20px;
+    top: 90px;
+  }
+}
+
+/* =========================
+   MOBILE (<= 768px)
+   ========================= */
+@media (max-width: 768px) {
+  .main {
+    padding: 40px 16px;
+  }
+
+  .top h3 {
+    font-size: 22px;
+  }
+
+  .top p {
+    font-size: 14px;
+  }
+
+  .bottom {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .ellipse {
+    display: none; /* hide decoration on mobile */
+  }
+}
+
+/* =========================
+   SMALL MOBILE (<= 480px)
+   ========================= */
+@media (max-width: 480px) {
+  .top h3 {
+    font-size: 20px;
+  }
+
+  .top p {
+    font-size: 13px;
+  }
+}

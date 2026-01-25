@@ -16,11 +16,11 @@ h2 {
     font-size: 30px;
 }
 
-span {
+.span {
     color: #2AAA94;
 }
 
-p {
+.para {
     text-align: center;
     font-family: "Saira", sans-serif;
     font-optical-sizing: auto;

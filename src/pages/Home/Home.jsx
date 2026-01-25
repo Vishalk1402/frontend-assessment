@@ -4,6 +4,10 @@ import Hero from '../../sections/hero/Hero'
 import WhyChooseus from '../../sections/whychooseus/WhyChooseus'
 import Whylearn from '../../sections/whylearn/Whylearn'
 import Featurecourses from '../../sections/featurecourses/Featurecourses'
+import Platform from '../../sections/platform/Platform'
+import Testimonials from '../../sections/testimonials/Testimonials'
+import Blog from '../../sections/blog/Blog'
+import Newsletter from '../../sections/newsletter/Newsletter'
 
 const Home = () => {
   return (
@@ -13,6 +17,10 @@ const Home = () => {
         <WhyChooseus/>
         <Whylearn/>
         <Featurecourses/>
+        <Platform/>
+        <Testimonials/>
+        <Blog/>
+        <Newsletter/>
     </div>
   )
 }
