@@ -8,6 +8,7 @@ import Platform from '../../sections/platform/Platform'
 import Testimonials from '../../sections/testimonials/Testimonials'
 import Blog from '../../sections/blog/Blog'
 import Newsletter from '../../sections/newsletter/Newsletter'
+import Footer from '../../sections/footer/Footer'
 
 const Home = () => {
   return (
@@ -21,6 +22,7 @@ const Home = () => {
         <Testimonials/>
         <Blog/>
         <Newsletter/>
+        <Footer/>
     </div>
   )
 }

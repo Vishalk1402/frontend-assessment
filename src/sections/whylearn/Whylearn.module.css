@@ -76,6 +76,7 @@
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    text-align: center;
 }
 
 .p2 {
@@ -84,6 +85,7 @@
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    text-align: center;
 }
 
 .p3 {
@@ -93,6 +95,7 @@
     font-optical-sizing: auto;
     font-style: normal;
     color: #DCE2EE;
+    text-align: center;
 }
 
 @media (max-width:768px) {

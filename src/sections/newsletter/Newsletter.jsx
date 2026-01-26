@@ -16,7 +16,6 @@ const Newsletter = () => {
                     Subscribe today to unlock a wealth of knowledge, delivered right to
                     your email, and stay ahead of the curve with ease.
                 </p>
-
                 <div className={styles.form}>
                     <input type="email" placeholder="Enter your email" />
                     <button>Subscribe</button>

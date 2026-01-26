@@ -1,0 +1,175 @@
+.footer {
+  background: linear-gradient(135deg, #6a1bd1, #1e2a78);
+  color: #ffffff;
+  padding: 60px 80px 30px;
+  font-family: "Saira", sans-serif;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.left {
+  flex: 1.5;
+  min-width: 260px;
+}
+
+.left .brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.left img {
+  width: 80px;
+}
+
+.desc {
+  font-size: 14px;
+  opacity: 0.85;
+  margin: 18px 0;
+  max-width: 320px;
+}
+
+.left h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.apps {
+  display: flex;
+  gap: 12px;
+}
+
+.apps img {
+  height: 44px;
+  width: auto;
+  cursor: pointer;
+}
+
+
+.links {
+  flex: 1;
+  min-width: 180px;
+}
+
+.links h4,
+.contact h4 {
+  font-size: 16px;
+  margin-bottom: 14px;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  font-size: 14px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+.links li:hover {
+  opacity: 1;
+}
+
+
+.contact {
+  flex: 1.5;
+  min-width: 260px;
+}
+
+.contact p {
+  font-size: 14px;
+  margin-bottom: 12px;
+  opacity: 0.85;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.address {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 320px;
+}
+
+.address p {
+  margin: 0;
+}
+
+.bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 40px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.socials {
+  display: flex;
+  gap: 16px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    padding: 50px 40px 30px;
+  }
+
+  .top {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 40px 20px 30px;
+  }
+
+  .top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .desc {
+    max-width: 100%;
+  }
+
+  .apps {
+    justify-content: center;
+  }
+
+  .contact p,
+  .address {
+    justify-content: center;
+  }
+
+  .bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .apps img {
+    height: 40px;
+  }
+
+  .socials {
+    font-size: 16px;
+  }
+}
