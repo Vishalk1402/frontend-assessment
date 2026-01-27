@@ -115,7 +115,7 @@
     height: auto;
     width: 810px;
     right: 160px;
-    bottom: 118px;
+    bottom: 80px;
 }
 
 .sty1 {
@@ -127,12 +127,16 @@
         display: none;
     }
 
+    .strip{
+        display: none;
+    }
+
     .center {
         display: none;
     }
 
     .left p {
-        width: 360px;
+        max-width: 360px;
     }
 
     .right {
@@ -147,8 +151,8 @@
     }
 
     .right p {
-        width: 400px;
-        font-size: larger;
+        max-width: 400px;
+        font-size: 20px;
         text-align: left;
     }
 }

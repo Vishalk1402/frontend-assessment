@@ -8,17 +8,13 @@ import style1 from "../../assets/hero/style1.png"
 const Hero = () => {
     return (
         <section className={styles.hero}>
-
             <img src={leftellipse} alt="" className={styles.ellipse} />
-
-
             <div className={styles.left}>
                 <h1>
                     Achieve Success <br />
                     with <span>India’s No.1</span> <br />
                     Online Exam <br />Institute
                 </h1>
-
                 <p className={styles.description}>
                     Join thousands of successful students who have cracked their entrance
                     exams with our expert-led online courses.
